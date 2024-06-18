@@ -105,8 +105,7 @@ fun BreedImagesList(images: List<String>, breedName: String, viewModel: DogBreed
                 ) {
                     Icon(
                         imageVector = Icons.Default.Favorite,
-                        contentDescription = null,
-                        tint = Color.Red
+                        contentDescription = null
                     )
                 }
             }

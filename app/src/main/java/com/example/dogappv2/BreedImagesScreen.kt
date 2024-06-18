@@ -83,8 +83,7 @@ fun BreedImagesList(
                 ) {
                     Icon(
                         imageVector = if (isLiked) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
-                        contentDescription = null,
-                        tint = Color(0xFF039be5)
+                        contentDescription = null
                     )
                 }
             }
